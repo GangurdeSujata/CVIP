@@ -1,0 +1,99 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+body{
+    background-image: linear-gradient(#050505,#f21ad5);
+    color: rgb(255, 255, 255);
+}
+.header{
+    backdrop-filter: blur(10px); 
+    padding: 1.25rem;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headlogo{
+    font-size: 3rem;
+    margin: 0 1.5rem;
+}
+.heading{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+.header h4{
+    margin-top: 0.3rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: white;
+}
+.top-h{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    white-space: nowrap;
+
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-family:sans-serif;
+    color:white;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.edit{
+    background-color: #10b613b6;
+    width: 100%;
+    border-radius:1px;
+
+}
+textarea{
+    width: 100%;
+    min-height: 350px;
+    overflow: scroll;
+    font-size: 1.5em;
+    background-color: rgba(33, 33, 33, 1.0);
+    color:white;
+}
+iframe{
+    width: 100%;
+    height: 28em;
+    background-color:whitesmoke;
+    
+}
+output{
+    background-color: #57a958;
+}
+h1{
+    color:rgb(35,35,35);
+    font-family: sans-serif;
+}
+.footer{
+    height: 4rem;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.footer a:hover{
+    color: rgb(62, 227, 245);
+}
